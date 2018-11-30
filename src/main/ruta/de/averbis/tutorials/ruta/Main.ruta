@@ -16,6 +16,7 @@
 //  under the License
 PACKAGE de.averbis.tutorials.ruta;
 
+// Adds a HelloWorldAnnotation with a greeting feature that spans the whole document
 DECLARE HelloWorldAnnotation (STRING greeting);
 STRING greeting;
 Document{-> HelloWorldAnnotation, HelloWorldAnnotation.greeting="Greetings from the Ruta HelloWorldAnnotator"};
