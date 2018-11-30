@@ -1,4 +1,4 @@
-# hello-world-ruta-pear
+# hello-world-ruta-pear [![Build Status](https://travis-ci.com/cgaege/hello-world-ruta-pear.svg?branch=master)](https://travis-ci.com/cgaege/hello-world-ruta-pear)
 
 An Apache UIMA Hello World Annotator written in RUTA bundled as a PEAR package
 
@@ -11,6 +11,3 @@ This project provides a minimal example how to automatically generate a UIMA des
 
 ## Build instructions
     mvn clean install
-    
-
-[![Build Status](https://travis-ci.com/cgaege/hello-world-ruta-pear.svg?branch=master)](https://travis-ci.com/cgaege/hello-world-ruta-pear)
