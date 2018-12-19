@@ -30,7 +30,7 @@
 
 	<properties>
 		<pear-descriptor-name>de/averbis/tutorials/ruta/MainRutaAnnotator</pear-descriptor-name>
-		<uima-version>2.10.2</uima-version>
+		<uima-version>2.10.3</uima-version>
 		<ruta-version>2.6.1</ruta-version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
