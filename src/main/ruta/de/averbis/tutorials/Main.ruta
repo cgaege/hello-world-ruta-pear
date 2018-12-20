@@ -17,5 +17,4 @@ PACKAGE de.averbis.tutorials;
 
 // Adds a HelloWorldAnnotation with a greeting feature that spans the whole document
 DECLARE HelloWorldAnnotation (STRING greeting);
-STRING greeting;
-Document{-> HelloWorldAnnotation, HelloWorldAnnotation.greeting="Greetings from the Ruta HelloWorldAnnotator"};
+Document{ -> CREATE(HelloWorldAnnotation, "greeting" = "Greetings from the Ruta HelloWorldAnnotator")};
