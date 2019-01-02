@@ -91,40 +91,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>copy-conf</id>
-						<phase>prepare-package</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<encoding>UTF-8</encoding>
-							<outputDirectory>${basedir}/target/pearPackaging/conf</outputDirectory>
-							<resources>
-								<resource>
-									<directory>src/main/resources/conf</directory>
-								</resource>
-							</resources>
-						</configuration>
-					</execution>					
-					<!-- Copies the resources to the pearPackaging folder -->
-					<execution>
-						<id>copy-resources</id>
-						<phase>prepare-package</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<encoding>UTF-8</encoding>
-							<outputDirectory>${basedir}/target/pearPackaging/resources</outputDirectory>
-							<resources>
-								<resource>
-									<directory>src/main/resources/datapath</directory>
-								</resource>
-							</resources>
-						</configuration>
-					</execution>				
+				<executions>				
 					<!-- Copies the type system to the pearPackaging folder -->
 					<execution>
 						<id>copy-type-system</id>
