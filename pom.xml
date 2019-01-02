@@ -71,6 +71,7 @@
 							</scriptFiles>
 							<typeSystemOutputDirectory>${project.build.directory}/generated-sources/ruta/descriptor</typeSystemOutputDirectory>
 							<analysisEngineOutputDirectory>${project.build.directory}/generated-sources/ruta/descriptor</analysisEngineOutputDirectory>
+							<analysisEngineTemplate>${basedir}/src/main/resources/desc/analysisEngineTemplate.xml</analysisEngineTemplate>
 							<analysisEngineSuffix>RutaAnnotator</analysisEngineSuffix>
 							<typeSystemSuffix>RutaTypeSystem</typeSystemSuffix>
 							<encoding>UTF-8</encoding>
